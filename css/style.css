@@ -1,0 +1,56 @@
+.room-image{
+    width: 100%;
+    
+}
+.main-div{
+    position: relative;
+}
+.wool-ball{
+    display: inline-block;
+    position: absolute;
+    height: 150px;
+    top: 280px;
+    right: 50px;
+    z-index: 10;
+}
+.wool-ball:hover{
+    transform:rotate(180deg)
+
+}
+
+.cat{
+    display: inline-block;
+    position: absolute;
+    top: 480px;
+   
+    animation: catmove 15s infinite;
+    
+    
+    
+}
+.cat-image{
+    height: 220px;
+
+}
+
+@keyframes catmove
+{
+    0%{ left:50px;}
+    100%{left:800px;}
+
+}
+.sun{
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left:980px;
+    animation: sunmove 5s infinite;
+
+}
+
+@keyframes sunmove{
+    0%{top:60px}
+    100%{top:80px}
+
+    }
+}
